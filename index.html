@@ -49,7 +49,7 @@
       } */
     </style>
   </head>
-  <body class="font-lato">
+  <body class="font-lato my-16">
     <header class="container mx-auto ">
       <!-- navbar starts -->
         <div class="navbar  lg:bg-color-primary mt-12 lg:p-10 rounded-full">
@@ -75,8 +75,8 @@
             </div>
             </div>
             
-            <div class="navbar-end">
-                <div class="dropdown dropdown-end">
+            <div class="navbar-end ">
+                <div class="dropdown dropdown-end lg:hidden">
                     
                   <label tabindex="0" class="btn bg-white border-0 m-1">
                     <i class="fa-solid fa-bars "></i>
@@ -175,11 +175,323 @@
         </div>
        </section>
        <!-- banner ends -->
+       <!-- fruits items -->
+       <section class="hidden lg:flex justify-around bg-white shadow-lg lg:w-[1196px] lg:h-60 -mt-16 ml-52 relative p-14">
+         <div class="">
+          <img src="images\fruit1.png" alt="">
+          <p class="text-center text-center text-[#0e121299]">Red grapes</p>
+         </div>
+         <div class="">
+          <img src="images\fruit2.png" alt="">
+          <p class="text-center text-center text-[#0e121299]">Orange</p>
+         </div>
+         <div class="">
+          <img src="images\fruit3.png" alt="">
+          <p class="text-center text-center text-[#0e121299]">Mango</p>
+         </div>
+         <div class="">
+          <img src="images\fruit4.png" alt="">
+          <p class="text-center text-center text-[#0e121299]">Strawberry</p>
+         </div>
+         <div class="">
+          <img src="images\fruit5.png" alt="">
+          <p class="text-center text-center text-[#0e121299]">Pomegranate</p>
+         </div>
+      </section>
             
 
     </header>
-    <main>
+    <main class="container mx-auto my-10">
+      <!-- Deal of the day section starts  -->
+      <section class="lg:flex justify-between items-center">
+        <div class="text-center lg:text-start py-6">
+          <h1 class="text-5xl font-extrabold text-[#121212] ">Deal of the day</h1>
+          <p class="text-[#0e121299] pt-6"> Deal of the day? More like steal of the day!Don't let the day end without <br> snagging our deal of the day. Grab it today, regret it never.
+          </p>
+        </div>
+        <div class="text-center pl-8 md:pl-48 lg:p-auto ">
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="lg:flex lg:flex-col text-center">
+              <span class="countdown font-mono text-5xl">
+                <span class="text-5xl font-extrabold" style="--value:15;"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              
+              <p class="text-center text-[#0e121299]">days</p>
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span class="text-5xl font-extrabold" style="--value:10;"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <p class="text-center text-[#0e121299]">hours</p>
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span class="text-5xl font-extrabold" style="--value:24;"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+             <p class="text-center text-[#0e121299]"> min</p>
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span class="text-5xl font-extrabold" style="--value:37;"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <p class="text-center text-[#0e121299]">sec</p>           
+             </div>
+          </div>
+        </div>
+      </section>
+      <!-- card section -->
+      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-6 ml-6 md:ml-auto lg:ml-auto mt-6">
+        <!-- card-1 -->
+        <div class="card w-96 bg-base-100 border items-center text-center pt-10 ">
+          <figure><img src="images\fruit6.png" alt="fruits" /></figure>
+            <div class="card-body">
+              <h2 class="card-title pl-12 ">12-90$-18.85$</h2>
+            <div class="divider w-60"></div>
+            <p class="text-center text-[#0e121299]">Apples</p>
+            <div class="rating rating-1 pl-14">
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" checked />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+            </div>
+            <!-- Open the modal using ID.showModal() method -->
+              <button class="bg-none text-[#F85559] font-bold" onclick="my_modal_5.showModal()">Details</button>
+               <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle h-[815px ">
+                <form method="dialog" class="modal-box items-center">
+                  <div class="items-center ">
+                    <img src="images\fruit6.png" alt="" class="items-center ml-40 ">
+                    <h3 class="text-4xl mt-6 font-extrabold ">Apples</h3>
+                    <p class=" text-center text-[#0e121299] py-4">Professional employees are there for you to pick 
+                    <br> the most amazing and fresh fruits.</p>
+                    <div class="rating rating-1 ">
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" checked />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                    </div>
+                   <!-- if there is a button in form, it will close the modal -->
+                   <div class="flex justify-center gap-8">
+                    <button class="btn border-[#F85559] bg-none text-center modal-action text-[#F85559] font-extrabold">Close</button>
+                   <button class="btn border-[#F85559] bg-[#F85559] text-center modal-action text-white font-extrabold">Shop Now</button>
+                   </div>
+                  
+                   
+                 </div>
+                 </form>
+                </dialog>
+            </div> 
+        </div>
+        <!--card-2  -->
+        <div class="card w-96 bg-base-100 border items-center text-center pt-10 ">
+          <figure><img src="images\fruit7.png" alt="fruits" /></figure>
 
+            <div class="card-body">
+              <h2 class="card-title pl-12 ">12-90$-18.85$</h2>
+            <div class="divider w-60"></div>
+            <p class="text-center text-[#0e121299]">Orange</p>
+            <div class="rating rating-2 pl-14">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            </div>
+            <button class="bg-none text-[#F85559] font-bold" onclick="my_modal_6.showModal()">Details</button>
+               <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle h-[815px ">
+                <form method="dialog" class="modal-box items-center">
+                  <div class="items-center ">
+                    <img src="images\fruit7.png" alt="" class="items-center ml-40 ">
+                    <h3 class="text-4xl mt-6 font-extrabold ">Orange</h3>
+                    <p class=" text-center text-[#0e121299] py-4">Professional employees are there for you to pick 
+                    <br> the most amazing and fresh fruits.</p>
+                    <div class="rating rating-1 ">
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" checked />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                    </div>
+                   <!-- if there is a button in form, it will close the modal -->
+                   <div class="flex justify-center gap-8">
+                    <button class="btn border-[#F85559] bg-none text-center modal-action text-[#F85559] font-extrabold">Close</button>
+                   <button class="btn border-[#F85559] bg-[#F85559] text-center modal-action text-white font-extrabold">Shop Now</button>
+                   </div>
+                  
+                   
+                 </div>
+                 </form>
+                </dialog>
+            </div>
+
+          
+        </div>
+        <!-- card-3  -->
+        <div class="card w-96 bg-base-100 border items-center text-center pt-10 ">
+          <figure><img src="images\fruit8.png" alt="fruits" /></figure>
+
+            <div class="card-body">
+              <h2 class="card-title pl-12 ">12-90$-18.85$</h2>
+            <div class="divider w-60"></div>
+            <p class="text-center text-[#0e121299]">Red Dragon</p>
+            <div class="rating rating-3 pl-14">
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" checked />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
+            </div>
+            <button class="bg-none text-[#F85559] font-bold" onclick="my_modal_7.showModal()">Details</button>
+               <dialog id="my_modal_7" class="modal modal-bottom sm:modal-middle h-[815px ">
+                <form method="dialog" class="modal-box items-center">
+                  <div class="items-center ">
+                    <img src="images\fruit8.png" alt="" class="items-center ml-40 ">
+                    <h3 class="text-4xl mt-6 font-extrabold ">Red Dragon</h3>
+                    <p class=" text-center text-[#0e121299] py-4">Professional employees are there for you to pick 
+                    <br> the most amazing and fresh fruits.</p>
+                    <div class="rating rating-1 ">
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" checked />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                    </div>
+                   <!-- if there is a button in form, it will close the modal -->
+                   <div class="flex justify-center gap-8">
+                    <button class="btn border-[#F85559] bg-none text-center modal-action text-[#F85559] font-extrabold">Close</button>
+                   <button class="btn border-[#F85559] bg-[#F85559] text-center modal-action text-white font-extrabold">Shop Now</button>
+                   </div>
+                  
+                   
+                 </div>
+                 </form>
+                </dialog>
+            </div>
+
+          
+        </div>
+        <!-- card-4  -->
+        <div class="card w-96 bg-base-100 border items-center text-center pt-10 ">
+          <figure><img src="images\fruit9.png" alt="fruits" /></figure>
+
+            <div class="card-body">
+              <h2 class="card-title pl-12 ">12-90$-18.85$</h2>
+            <div class="divider w-60"></div>
+            <p class="text-center text-[#0e121299]">Banana</p>
+            <div class="rating rating-4 pl-14">
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" checked />
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+            </div>
+            <button class="bg-none text-[#F85559] font-bold" onclick="my_modal_8.showModal()">Details</button>
+               <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle h-[815px ">
+                <form method="dialog" class="modal-box items-center">
+                  <div class="items-center ">
+                    <img src="images\fruit9.png" alt="" class="items-center ml-40 ">
+                    <h3 class="text-4xl mt-6 font-extrabold ">Banana</h3>
+                    <p class=" text-center text-[#0e121299] py-4">Professional employees are there for you to pick 
+                    <br> the most amazing and fresh fruits.</p>
+                    <div class="rating rating-1 ">
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" checked />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
+                    </div>
+                   <!-- if there is a button in form, it will close the modal -->
+                   <div class="flex justify-center gap-8">
+                    <button class="btn border-[#F85559] bg-none text-center modal-action text-[#F85559] font-extrabold">Close</button>
+                   <button class="btn border-[#F85559] bg-[#F85559] text-center modal-action text-white font-extrabold">Shop Now</button>
+                   </div>
+                  
+                   
+                 </div>
+                 </form>
+                </dialog>
+            </div>
+
+          
+        </div>
+      </section>
+      <!-- meet the team section -->
+      <section class="mt-6">
+        <div class="hero min-h-screen bg-[url('banner1.png')]" >
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+          <div>
+            <div>
+              <h1 class=" mb-5 text-5xl font-bold">Meet the team section</h1>
+                <p class="mb-5">The way we work together determines the way we succeed.Alone we might be small, 
+                  <br> but together we can stand some giant's tall.We protect each other, we uplift each other, we work together.</p>
+             </div>
+               
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-32">
+              <div class="block ">
+                <img src="images\member1.png" alt="" class="pl-32 md:pl-16 lg:pl-0" >
+                <h3 class="mt-8  font-bold">Awlad Hossain</h3>
+                <p class="font-medium">Fruits Expert</p>
+                <div>
+                  <i class="fa-brands fa-facebook" style="color:#F85559" ;></i>
+                  <i class="fa-brands fa-twitter" style="color:#F85559 ;"></i>
+                  <i class="fa-brands fa-linkedin" style="color:#F85559 ;"></i>
+                </div>
+              </div>
+              <div>
+                  <img src="images\member2.png" alt="" class="pl-32 md:pl-16 lg:pl-0">
+                <h3 class="mt-8  font-bold">Safia Chowdhury</h3>
+                <p class="font-medium">Fruits Expert</p>
+                <div>
+                  <i class="fa-brands fa-facebook" style="color:#F85559 ;"></i>
+                  <i class="fa-brands fa-twitter" style="color:#F85559 ;"></i>
+                  <i class="fa-brands fa-linkedin" style="color:#F85559 ;"></i>
+                </div>
+                </div>
+                <div>
+                  <img src="images\member3.png" alt="" class="pl-32 md:pl-16 lg:pl-0" >
+                <h3 class="mt-8  font-bold">Rokib Hossain</h3>
+                <p class="font-medium">Fruits Expert</p>
+                <div>
+                  <i class="fa-brands fa-facebook" style="color:#F85559 ;"></i>
+                  <i class="fa-brands fa-twitter" style="color:#F85559 ;"></i>
+                  <i class="fa-brands fa-linkedin" style="color:#F85559 ;"></i>
+                </div>
+                </div>
+                <div>
+                  <img src="images\member4.png" alt="" class="pl-32 md:pl-16 lg:pl-0">
+                <h3 class="mt-8  font-bold">Chaity</h3>
+                <p class="font-medium">Fruits Expert</p>
+                <div>
+                  <i class="fa-brands fa-facebook" style="color:#F85559 ;"></i>
+                  <i class="fa-brands fa-twitter" style="color:#F85559 ;"></i>
+                  <i class="fa-brands fa-linkedin" style="color:#F85559 ;"></i>
+                </div>
+                </div>
+               
+             </div>
+               </div> 
+           
+                </div>
+          </div>
+            </div>
+          </div>
+        </div>
+  
+      </section>
     </main>
     <footer>
 
